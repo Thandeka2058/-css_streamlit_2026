@@ -32,7 +32,7 @@ image = Image.open("Animation/IT-Infrastructure-Project-Management-Methodology.j
 
 st.write("##")
 st.header("Welcome! :wave:  ")
-st.subheader("I am Thandeka Ngwenya")
+st.subheader("Thandeka Ngwenya")
 st.write("Process Excellence Analyst | Tech Enthusiast")
 st.write('----')
 
@@ -116,3 +116,4 @@ with st.container():
             st.markdown(contact_form, unsafe_allow_html=True)
         with right_col:
             st_lottie(lottie_contact, height=300)
+
