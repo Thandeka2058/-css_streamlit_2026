@@ -31,11 +31,9 @@ image = Image.open("Animation/IT-Infrastructure-Project-Management-Methodology.j
 
 
 st.write("##")
-st.subheader("Hey Guys! :wave:  ")
+st.header("Welcome! :wave:  ")
+st.subheader("I am Thandeka Ngwenya")
 st.write("Process Excellence Analyst | Tech Enthusiast")
-st.write("""
-I'm a dedicated professional with a passion for leveraging technology to drive process improvements and enhance operational efficiency.
-""")
 st.write('----')
 
 with st.container():
@@ -51,8 +49,20 @@ with st.container():
             col1, col2 = st.columns(2)
             with col1:
                 st.write("##")
-                st.subheader("I am Thandeka Ngwenya")
-                st.title("Process Excellence Analyst | Tech Enthusiast")
+                st.write("""
+               Passionate about transforming business processes through data-driven insights and innovative solutions. 
+                I combine analytical expertise with technical acumen to deliver measurable results and drive organizational excellence.
+
+                With a strong foundation in Information Systems and Economics, I've developed a keen ability to identify inefficiencies 
+                and implement strategic improvements that enhance operational performance. My experience spans across data analysis, 
+                process optimization, and IT infrastructure management.
+
+                I'm committed to leveraging technology as a catalyst for change, helping organizations streamline their workflows and 
+                achieve sustainable growth. Whether it's analyzing customer feedback, optimizing operations, or implementing digital 
+                solutions, I bring a results-driven approach to every project.
+         """)
+                
+    
             with col2:
                 if lottie_ani:
                     st_lottie(lottie_ani)
@@ -74,20 +84,7 @@ with st.container():
                 - Data Science Intern at Gijima
                 - Process Excellence Analyst at Teleperformance
                 """)
-                st.write("""
-                Passionate about transforming business processes through data-driven insights and innovative solutions. 
-                I combine analytical expertise with technical acumen to deliver measurable results and drive organizational excellence.
-
-                With a strong foundation in Information Systems and Economics, I've developed a keen ability to identify inefficiencies 
-                and implement strategic improvements that enhance operational performance. My experience spans across data analysis, 
-                process optimization, and IT infrastructure management.
-
-                I'm committed to leveraging technology as a catalyst for change, helping organizations streamline their workflows and 
-                achieve sustainable growth. Whether it's analyzing customer feedback, optimizing operations, or implementing digital 
-                solutions, I bring a results-driven approach to every project.
-
-                Let's collaborate and create meaningful impact together!
-                """)
+               
     if selected =="Projects":
         with st.container():
             st.header("My Projects")
@@ -119,7 +116,3 @@ with st.container():
             st.markdown(contact_form, unsafe_allow_html=True)
         with right_col:
             st_lottie(lottie_contact, height=300)
-
-
-
-
